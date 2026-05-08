@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
+      { title: "SYNETRA" },
       { name: "description", content: "Synetra Health — Consultoría en Soluciones Biomédicas a la Medida" },
       { name: "author", content: "Synetra Health" },
-      { property: "og:title", content: "Synetra Health" },
-      { property: "og:description", content: "Consultoría en Soluciones Biomédicas a la Medida" },
+      { property: "og:title", content: "SYNETRA" },
+      { property: "og:description", content: "Synetra Health — Consultoría en Soluciones Biomédicas a la Medida" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "SYNETRA" },
+      { name: "twitter:description", content: "Synetra Health — Consultoría en Soluciones Biomédicas a la Medida" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/84eb1ef1-955f-429f-b9e6-8012a4b0be89/id-preview-632cc9e9--7cc14646-01e2-44ae-8b3a-fc8682fc5207.lovable.app-1778199102783.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/84eb1ef1-955f-429f-b9e6-8012a4b0be89/id-preview-632cc9e9--7cc14646-01e2-44ae-8b3a-fc8682fc5207.lovable.app-1778199102783.png" },
     ],
     links: [
       {
